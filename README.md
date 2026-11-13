@@ -10,7 +10,7 @@ Register and read the rules on the landing page: [diagrid.io/advent-of-workflow]
 
 ## How it works
 
-1. Register on the landing page. Your email is required to get the digital award and to inform the winners of the Lego set. Challenges are emailed to you and also published here as GitHub issues.
+1. Register on [diagrid.io](https://diagrid.io/advent-of-workflow). Your email is required to get the digital award and to inform the winners of the Lego set. Challenges are emailed to you and also published here as GitHub issues.
 2. **Fork this repo** and do the setup below.
 3. For each challenge, build the workflow app in your fork, one directory or branch per challenge (for example `challenge-01/`).
 4. Run it on Dapr OSS, watch the run in the Dapr Dev Dashboard and screenshot the workflow run detail page. Optionally, run it with Diagrid and screenshot the workflow diagram.
