@@ -4,6 +4,8 @@ Join the Advent of Workflow, learn about building durable workflows with Dapr an
 
 Twelve Dapr Workflow challenges, one every other day from 1 to 23 December 2026. Run by [Diagrid](https://www.diagrid.io), open to everyone!
 
+North Pole Station has run on TINSEL — Tracking, Inventory, Scheduling and Elf Logistics — since 1957, and the old mainframe is finally failing: it drops jobs halfway through and keeps no record that they ever started. It cannot be taken down for repair, because the launch window does not move. So the station is being rebuilt one subsystem at a time, as durable workflows, and that is what each challenge asks you to build. Read the full story [here](SETTING.md).
+
 Register and read the rules on the landing page: [diagrid.io/advent-of-workflow](https://diagrid.io/advent-of-workflow).
 
 ## How it works
