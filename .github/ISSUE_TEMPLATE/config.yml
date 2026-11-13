@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Submit a challenge
+    url: https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new/choose
+    about: Submissions are issues in the leaderboard repo. That is the only issue you ever open.
+  - name: Rules, prizes and registration
+    url: https://diagrid.io/advent-of-workflow
+    about: Everything about Advent of Workflow, including how to register.
+  - name: A question about a challenge
+    url: https://github.com/diagrid-labs/advent-of-workflow/issues?q=label%3Achallenge
+    about: Comment on that challenge's issue. Challenge issues are published by the maintainers.
