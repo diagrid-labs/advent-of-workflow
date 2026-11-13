@@ -1,5 +1,7 @@
 # Advent of Workflow
 
+![The interior of North Pole Station: elves in silver jumpsuits working banks of 1950s mainframe consoles and green phosphor screens under a riveted glass dome, with the sleigh waiting on its launch cradle through the open hangar door](advent-of-workflow-hero.jpg)
+
 Join the Advent of Workflow, learn about building durable workflows with Dapr and Diagrid and win prizes!
 
 Twelve Dapr Workflow challenges, one every other day from 1 to 23 December 2026. Run by [Diagrid](https://www.diagrid.io), open to everyone!
