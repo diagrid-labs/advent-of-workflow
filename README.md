@@ -105,11 +105,32 @@ copilot plugin marketplace add diagrid-labs/dapr-skills
 copilot plugin install dapr-skills@diagrid-labs
 ```
 
+Building on Diagrid instead of Dapr OSS? There is a matching plugin, `catalyst-ai`, in step 6 below.
+
 ### 6. A free Diagrid account (only for the optional bonus steps of the challenges)
 
 **[Diagrid](https://www.diagrid.io/platform?utm_source=github&utm_medium=adventofworkflow&utm_campaign=adventofworkflow)**, the platform for durable execution for workflows and agents, is a replacement for running Dapr locally. Diagrid is built on top of open source Dapr so you don't need to change your application code. It needs a **[free account](https://catalyst.diagrid.io/?dg_intent=signup&utm_source=github&utm_medium=adventofworkflow&utm_campaign=adventofworkflow)**, and you only need one for the optional bonus tasks.
 
 The bonus task is running the same workflow on Diagrid as well as, or instead of, Dapr OSS, and including that evidence too. On a Diagrid run, the screenshot is the workflow diagram showing the activities in Diagrid web console.
+
+#### Building and running on Diagrid: the `catalyst-ai` plugin (recommended, not required)
+
+[`catalyst-ai`](https://github.com/diagridio/catalyst-ai/) is the Diagrid counterpart to `dapr-skills`: skills that scaffold, run, debug and deploy Dapr Workflows and durable agents on Diagrid by prompting. Use it where you would use `dapr-skills` for a Dapr OSS run. It is recommended and never required, and like everything Diagrid it sits outside the pass criteria: **a workflow you build by hand, on Dapr OSS alone, passes on identical terms.**
+
+In Claude Code:
+
+```
+/plugin marketplace add diagridio/catalyst-ai
+/plugin install catalyst-ai@diagrid
+```
+
+In GitHub Copilot CLI (and other agents that read project skills):
+
+```sh
+npx -y skills add diagridio/catalyst-ai --agent github-copilot --skill '*' --yes
+```
+
+The skills drive Diagrid through the Catalyst MCP server, so you sign in once after installing. The [`catalyst-ai` README](https://github.com/diagridio/catalyst-ai/#install) has the sign-in steps for each client.
 
 ## Languages
 
