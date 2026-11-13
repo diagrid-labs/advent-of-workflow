@@ -14,7 +14,7 @@ Register and read the rules on the landing page: [diagrid.io/advent-of-workflow]
 2. **Fork this repo** and do the setup below.
 3. For each challenge, build the workflow app in your fork, one directory or branch per challenge (for example `challenge-01/`).
 4. Run it on Dapr OSS, watch the run in the Dapr Dev Dashboard and screenshot the workflow run detail page. Optionally, run it with Diagrid and screenshot the workflow diagram.
-5. Open a [submission issue](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new/choose) in the [leaderboard repo](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/): pick the challenge number, link your work and drag the screenshot into the issue. One issue per challenge.
+5. Open a [submission issue](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new?template=submission.yml) in the [leaderboard repo](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/): pick the challenge number, link your work and drag the screenshot into the issue. One issue per challenge.
 6. You get a pass or a fail. Rank is the number of challenges you pass.
 
 ## Dates
@@ -126,7 +126,7 @@ The screenshot is the workflow run detail page in the Dev Dashboard for a Dapr O
 
 Each challenge is a GitHub issue in this repo, labelled by day. Every issue has the same shape: what to build, what done looks like, which view proves it, what the reviewer checks, and the optional Diagrid bonus.
 
-Challenge issues are published by the maintainer (@marcduiker), and nobody else opens issues here. The one issue you ever open is a [submission](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new/choose), in the leaderboard repo. A question about a challenge goes in a comment on that challenge's issue.
+Challenge issues are published by the maintainer (@marcduiker), and nobody else opens issues here. The one issue you ever open is a [submission](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new?template=submission.yml), in the leaderboard repo. A question about a challenge goes in a comment on that challenge's issue.
 
 ## Community
 
