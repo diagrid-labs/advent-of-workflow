@@ -38,7 +38,7 @@ You can start late. Rank is a count of passes, not of when you started, so a lat
 
 ## What you need
 
-### 1. Dapr 1.17 or newer
+### 1. Dapr 1.19 or newer
 
 Install the Dapr CLI and initialise Dapr locally by following the [Dapr docs](https://docs.dapr.io/getting-started/install-dapr-cli/).
 
@@ -47,7 +47,7 @@ dapr --version
 dapr init
 ```
 
-`dapr init` needs Docker (or Podman) running. Check that the CLI and runtime report 1.17 or higher.
+`dapr init` needs Docker (or Podman) running. Check that the CLI and runtime report 1.19 or higher.
 
 ### 2. A toolchain for your language of choice
 
