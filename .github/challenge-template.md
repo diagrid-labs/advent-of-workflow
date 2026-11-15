@@ -44,7 +44,7 @@ State what must be visible in the screenshot, for example the activity list, sta
 ## Optional Diagrid bonus
 
 <!--
-This bonus is entirely optional and changes nothing about passing. Earns no extra pass. Never needed for the Holopin. The count of confirmed Diagrid runs is what the two LEGO Game Boy sets are decided on.
+This bonus is entirely optional and changes nothing about passing. Earns no extra pass. Never needed for the Holopin. The count of confirmed Diagrid runs is what the two LEGO® Game Boy™ sets are decided on.
 Two ways to do it, both pass: run the same workflow on Diagrid in addition to Dapr OSS, or instead of it. Include a screenshot of the workflow diagram showing the activities in the Diagrid web console.
 Needs a free Diagrid account. The Dapr Dev Dashboard needs no account.
 Add any challenge-specific note here.

@@ -12,7 +12,7 @@ Register and read the rules here: [diagrid.io/advent-of-workflow](https://diagri
 
 ## How it works
 
-1. Register on [diagrid.io](https://diagrid.io/advent-of-workflow). Your email is required to get the digital award and to inform the winners of the Lego set. Challenges are emailed to you and also published here as GitHub issues.
+1. Register on [diagrid.io](https://diagrid.io/advent-of-workflow). Your email is required to get the digital award and to contact the winners of the two LEGO® Game Boy™ sets. Challenges are emailed to you and also published here as GitHub issues.
 2. **Fork this repo** and do the setup below.
 3. For each challenge, build the workflow app in your fork, one directory or branch per challenge (for example `challenge-01/`).
 4. Run it on Dapr OSS, watch the run in the Dapr Dev Dashboard and screenshot the workflow run detail page. Optionally, run it with Diagrid and screenshot the workflow diagram.
@@ -37,6 +37,8 @@ You can start late. Rank is a count of passes, not of when you started, so a lat
 - Two **LEGO Game Boy** sets: These are awarded to whoever ran the most optional steps in the challenges that use Diagrid. If more than two participants have the same amount of Diagrid-based implementations, two random winners will be chosen from this group.
 
 > Diagrid staff and Dapr maintainers are excluded from prizes. The full rules and the winner criteria are on the landing page.
+>
+> LEGO® is a trademark of the LEGO Group. Game Boy™ is a trademark of Nintendo. Neither sponsors, endorses or is connected with Advent of Workflow.
 
 ## What you need
 
