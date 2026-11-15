@@ -15,7 +15,7 @@ The reviewer is an agent, so "What the reviewer checks" must be specific enough 
 Neither dapr-skills nor Diagrid may appear in the pass criteria.
 -->
 
-**Drops:** <date, December 2026> | **Submissions close:** 24 December 2026, 23:59 CET
+**Drops:** <date, December 2026> | **Submissions close:** 3 January 2027, 23:59 CET
 
 ## What to build
 

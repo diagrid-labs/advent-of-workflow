@@ -23,8 +23,8 @@ Register and read the rules here: [diagrid.io/advent-of-workflow](https://diagri
 
 Challenges drop on 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21 and 23 December 2026.
 
-- Submissions close **24 December 2026, 23:59 CET**.
-- Results are announced **28 December 2026**.
+- Submissions close **Sunday 3 January 2027, 23:59 CET**, so the holidays are yours to catch up.
+- Results are announced **Wednesday 13 January 2027**.
 
 You can start late. Rank is a count of passes, not of when you started, so a late joiner can still climb until submissions close.
 
