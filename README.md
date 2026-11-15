@@ -62,13 +62,13 @@ The [Dapr Dev Dashboard](https://github.com/diagridio/dev-dashboard) is a local 
 macOS or Linux (installs to `~/.local/bin`):
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/diagridio/dev-dashboard/main/scripts/install.sh | VERSION=v0.0.28 sh
+curl -sSL https://raw.githubusercontent.com/diagridio/dev-dashboard/main/scripts/install.sh | sh
 ```
 
 Windows (PowerShell, installs to `%LOCALAPPDATA%\Programs\diagrid-dev-dashboard`):
 
 ```powershell
-$env:VERSION='v0.0.28'; iwr -useb https://raw.githubusercontent.com/diagridio/dev-dashboard/main/scripts/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/diagridio/dev-dashboard/main/scripts/install.ps1 | iex
 ```
 
 If the install directory is not on your `PATH`, the script prints the line to add. Open a new terminal, then check and run it:
@@ -78,6 +78,8 @@ diagrid-dev-dashboard
 ```
 
 It starts on port **9090** and opens your browser at `http://localhost:9090`. Use `--port 8080` if 9090 is taken.
+
+The install script always fetches the latest release. The Dev Dashboard ships often, so if a screen looks different from what a challenge describes, re-run the install command above to update.
 
 ### 4. Start your apps
 
@@ -111,7 +113,7 @@ Building on Diagrid instead of Dapr OSS? There is a matching plugin, `catalyst-a
 
 ### 6. A free Diagrid account (only for the optional bonus steps of the challenges)
 
-**[Diagrid](https://www.diagrid.io/platform?utm_source=github&utm_medium=adventofworkflow&utm_campaign=adventofworkflow)**, the platform for durable execution for workflows and agents, is a replacement for running Dapr locally. Diagrid is built on top of open source Dapr so you don't need to change your application code. It needs a **[free account](https://catalyst.diagrid.io/?dg_intent=signup&utm_source=github&utm_medium=adventofworkflow&utm_campaign=adventofworkflow)**, and you only need one for the optional bonus tasks.
+**[Diagrid](https://www.diagrid.io/platform?utm_source=github&utm_medium=adventofworkflow&utm_campaign=advent-of-workflow)**, the platform for durable execution for workflows and agents, is a replacement for running Dapr locally. Diagrid is built on top of open source Dapr so you don't need to change your application code. It needs a **[free account](https://catalyst.diagrid.io/?dg_intent=signup&utm_source=github&utm_medium=adventofworkflow&utm_campaign=advent-of-workflow)**, and you only need one for the optional bonus tasks.
 
 The bonus task is running the same workflow on Diagrid as well as, or instead of, Dapr OSS, and including that evidence too. On a Diagrid run, the screenshot is the workflow diagram showing the activities in Diagrid web console.
 
