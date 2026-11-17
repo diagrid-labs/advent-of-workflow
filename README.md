@@ -10,6 +10,8 @@ North Pole Station has run on TINSEL — Tracking, Inventory, Scheduling and Elf
 
 Register and read the rules here: [diagrid.io/advent-of-workflow](https://diagrid.io/advent-of-workflow).
 
+New to Dapr Workflow? Take the free [Dapr Workflow track](https://www.diagrid.io/university/dapr-workflow) at Dapr University first. It runs in your browser, so you can learn the patterns before you install anything.
+
 ## How it works
 
 1. Register on [diagrid.io](https://diagrid.io/advent-of-workflow). Your email is required to get the digital award and to contact the winners of the two LEGO® Game Boy™ sets. Challenges are emailed to you and also published here as GitHub issues.
