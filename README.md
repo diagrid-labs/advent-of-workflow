@@ -38,7 +38,7 @@ You can start late. Rank is a count of passes, not of when you started, so a lat
 
 - Two **LEGO Game Boy** sets: These are awarded to whoever ran the most optional steps in the challenges that use Diagrid. If more than two participants have the same amount of Diagrid-based implementations, two random winners will be chosen from this group.
 
-> Diagrid staff and Dapr maintainers are excluded from prizes. The full rules and the winner criteria are on the landing page.
+> **Prize eligibility.** Diagrid staff and Dapr maintainers are excluded from prizes. You must be 18 or over on the closing date, Sunday 3 January 2027, to receive a LEGO® Game Boy™ set. We cannot ship a set to a country that the United States or the European Union restricts trade or shipping with; if a winner's address is in such a country, or no deliverable address is given, that set goes to the next eligible participant on the same criteria. The Holopin award is digital, has no age or shipping restriction, and never needs Diagrid.
 >
 > LEGO® is a trademark of the LEGO Group. Game Boy™ is a trademark of Nintendo. Neither sponsors, endorses or is connected with Advent of Workflow.
 
@@ -155,8 +155,10 @@ For a Dapr OSS run the screenshot comes from the Dev Dashboard: open the **Workf
 
 Each challenge is a GitHub issue in this repo, labelled by day. Every issue has the same shape: what to build, what done looks like, which view proves it, what the reviewer checks, and the optional Diagrid bonus.
 
-Challenge issues are published by the maintainer (@marcduiker), and nobody else opens issues here. The one issue you ever open is a [submission](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new?template=submission.yml), in the leaderboard repo. A question about a challenge goes in a comment on that challenge's issue.
+Challenge issues are published by the maintainer (@marcduiker), and nobody else opens issues here. The one issue you ever open is a [submission](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new?template=submission.yml), in the leaderboard repo. A question about a challenge goes in a comment on that challenge's issue, or in **#advent-of-workflow** on the [Dapr Discord](https://diagrid.ws/dapr-discord). Use the issue when the question is about that one challenge, so the answer stays with it, and Discord for anything else: setup trouble, the Dev Dashboard, or a question you would rather ask quickly.
 
 ## Community
 
 Be kind. This project follows the [Code of Conduct](CODE_OF_CONDUCT.md). The repo name carries no year on purpose, so a future run can reuse it.
+
+Come and build along in **#advent-of-workflow** on the [Dapr Discord](https://diagrid.ws/dapr-discord).
