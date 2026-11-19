@@ -6,6 +6,6 @@ contact_links:
   - name: Rules, prizes and registration
     url: https://diagrid.io/advent-of-workflow
     about: Everything about Advent of Workflow, including how to register.
-  - name: A question about a challenge
-    url: https://github.com/diagrid-labs/advent-of-workflow/issues?q=label%3Achallenge
-    about: Comment on that challenge's issue. Challenge issues are published by the maintainers.
+  - name: Ask a question
+    url: https://diagrid.ws/dapr-discord
+    about: Questions go to the advent-of-workflow forum channel on the Dapr Discord, which has a topic per challenge.
