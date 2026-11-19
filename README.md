@@ -17,7 +17,7 @@ New to Dapr Workflow? Take the free [Dapr Workflow track](https://www.diagrid.io
 1. Register on [diagrid.io](https://diagrid.io/advent-of-workflow). Your email is required to get the digital award and to contact the winners of the two LEGO® Game Boy™ sets. Challenges are emailed to you and also published here as GitHub issues.
 2. **Fork this repo** and do the setup below.
 3. For each challenge, build the workflow app in your fork, one directory or branch per challenge (for example `challenge-01/`).
-4. Run it on Dapr OSS, watch the run in the Dapr Dev Dashboard and screenshot the workflow run detail page. Optionally, run it with Diagrid and screenshot the workflow diagram.
+4. Run it on Dapr OSS, watch the run in the Dapr Dev Dashboard and screenshot the view the challenge asks for, usually the Event History table. Optionally, run it on Diagrid as well and screenshot the workflow graph.
 5. Open a [submission issue](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new?template=submission.yml) in the [leaderboard repo](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/): pick the challenge number, link your work and drag the screenshot into the issue. One issue per challenge.
 6. You get a pass or a fail. Rank is the number of challenges you pass.
 
@@ -93,7 +93,7 @@ The Dapr Dev Dashboard discovers your running Dapr apps in different ways, it su
 - Aspire
 - Docker Compose
 
-Once the Dapr app is running, it shows up in the dashboard automatically. Then start a workflow run in your IDE, switch to the Dashboard and open the **Workflows** page to see it being run. Click on the workflow instance to inspect the details. This is also the page you need to screenshot and submit to the issue in the leaderboard repo.
+Once the Dapr app is running, it shows up in the dashboard automatically. Then start a workflow run in your IDE, switch to the Dashboard and open the **Workflows** page to see it being run. Click on the workflow instance ID to inspect the details, then scroll down to the **Event History** table. That table is what most challenges ask you to screenshot and attach to your submission issue, and each challenge says which view it wants. A partial screenshot is accepted when the history does not fit on one screen.
 
 ### 5. The `dapr-skills` plugin (recommended, not required)
 
@@ -113,13 +113,13 @@ copilot plugin marketplace add diagrid-labs/dapr-skills
 copilot plugin install dapr-skills@diagrid-labs
 ```
 
-Building on Diagrid instead of Dapr OSS? There is a matching plugin, `diagrid`, in step 6 below.
+Running on Diagrid as well, for the optional bonus? There is a matching plugin, `diagrid`, in step 6 below.
 
 ### 6. A free Diagrid account (only for the optional bonus steps of the challenges)
 
 **[Diagrid](https://www.diagrid.io/platform?utm_source=github&utm_medium=adventofworkflow&utm_campaign=advent-of-workflow)**, the platform for durable execution for workflows and agents, is a replacement for running Dapr locally. Diagrid is built on top of open source Dapr so you don't need to change your application code. It needs a **[free account](https://catalyst.diagrid.io/?dg_intent=signup&utm_source=github&utm_medium=adventofworkflow&utm_campaign=advent-of-workflow)**, and you only need one for the optional bonus tasks.
 
-The bonus task is running the same workflow on Diagrid as well as, or instead of, Dapr OSS, and including that evidence too. On a Diagrid run, the screenshot is the workflow diagram showing the activities in Diagrid web console.
+The bonus task is running the same workflow on Diagrid in addition to your Dapr OSS run, and including that evidence too. The Dapr OSS run and its Event History screenshot are required for every challenge, and a Diagrid run never replaces them. On a Diagrid run, the screenshot is the workflow graph showing the activities. In the Diagrid console it is under Monitoring > Workflows: select your instance ID, and the graph is on the instance page.
 
 #### Building and running on Diagrid: the `diagrid` plugin (recommended, not required)
 
@@ -149,7 +149,7 @@ Any language Dapr Workflow supports is fine, and it is your choice per challenge
 
 ## Evidence
 
-The screenshot is the workflow run detail page in the Dev Dashboard for a Dapr OSS run, or the workflow diagram in the Diagrid web console for a Diagrid run. Attach it to your submission issue by dragging the image into the screenshot box, so the evidence stays with the submission.
+For a Dapr OSS run the screenshot comes from the Dev Dashboard: open the **Workflows** page, click your instance ID and scroll down to the **Event History** table, unless the challenge asks for a different view. For a Diagrid run it is the workflow graph, under Monitoring > Workflows in the Diagrid console. Attach it to your submission issue by dragging the image into the screenshot box, so the evidence stays with the submission.
 
 ## Challenges
 
