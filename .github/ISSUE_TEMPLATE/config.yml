@@ -7,5 +7,5 @@ contact_links:
     url: https://diagrid.io/advent-of-workflow
     about: Everything about Advent of Workflow, including how to register.
   - name: Ask a question
-    url: https://diagrid.ws/dapr-discord
-    about: Questions go to the advent-of-workflow forum channel on the Dapr Discord, which has a topic per challenge.
+    url: https://discord.gg/VjzDF7H5jV
+    about: Questions go in the advent-of-workflow forum channel on the Dapr Discord, which this link opens. There is a topic per challenge, and a Help and FAQ topic for everything else.
