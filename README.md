@@ -155,7 +155,7 @@ For a Dapr OSS run the screenshot comes from the Dev Dashboard: open the **Workf
 
 Each challenge is a GitHub issue in this repo, labelled by day. Every issue has the same shape: what to build, what done looks like, which view proves it, what the reviewer checks, and the optional Diagrid bonus.
 
-Challenge issues are published by the maintainer (@marcduiker), and nobody else opens issues here. The one issue you ever open is a [submission](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new?template=submission.yml), in the leaderboard repo. Questions do not go in the issues. Ask them in the **advent-of-workflow** forum channel on the [Dapr Discord](https://diagrid.ws/dapr-discord), which has a topic per challenge: post in the topic for the challenge you are on, or start a new one for anything else, such as setup trouble or the Dev Dashboard.
+Challenge issues are published by the maintainer (@marcduiker), and nobody else opens issues here. The one issue you ever open is a [submission](https://github.com/diagrid-labs/advent-of-workflow-leaderboard/issues/new?template=submission.yml), in the leaderboard repo. Questions do not go in the issues. Ask them in the **advent-of-workflow** forum channel on the [Dapr Discord](https://diagrid.ws/dapr-discord), which has a topic per challenge: post in the topic for the challenge you are on, and in the Help and FAQ topic for anything else, such as setup trouble or the Dev Dashboard. Only the organisers start topics there, so the one you need is already open.
 
 ## Community
 
