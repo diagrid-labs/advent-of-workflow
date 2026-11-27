@@ -6,7 +6,7 @@ publish the challenge with the API, which is not affected by that setting:
   gh issue create --repo diagrid-labs/advent-of-workflow \
     --title "Challenge NN: <pattern name>" \
     --label challenge --label day-NN \
-    --body-file challenges/challenge-NN.md
+    --body-file NN/challenge-NN.md
 
 Title: "Challenge NN: <pattern name>". Labels: challenge, day-NN.
 
@@ -23,9 +23,13 @@ anything GitHub renders specially is lost or broken in an inbox:
     the reader's client wrap it. GitHub collapses wrapped lines into a paragraph, but plain-text
     email clients keep the breaks and the challenge arrives ragged.
 Tables, fenced code blocks, bold and plain links are fine.
+One exception: a Mermaid diagram of the workflow, at the end of "What to build". GitHub renders it
+in the issue, but an email client shows the raw diagram code, so wrap it in two HTML comments,
+one reading "diagram:start" and one reading "diagram:end", and delete everything from the first to
+the second when building the email body. The private repo's README has the command.
 
-The draft challenge files live in the private staging repo until their drop date, NOT in this
-public repo. Publishing them here early spoils the schedule.
+The draft challenge files live in a private repo, one folder per challenge, until their drop date,
+NOT in this public repo. Publishing them here early spoils the schedule.
 -->
 
 **Drops:** <date, December 2026> | **Submissions close:** 3 January 2027, 23:59 CET
@@ -47,6 +51,8 @@ SAY WHAT THE ACTIVITIES TALK TO. Through challenge 10 they are plain functions w
 challenge's own lookup tables: no database, no HTTP call, no other service. Say so outright, so
 nobody builds infrastructure the challenge never asked for. Challenges 11 and 12 add a second app,
 which is exactly why the earlier ones must be explicit that they do not.
+End with a Mermaid diagram of the workflow, between the diagram markers (see the top of this file).
+Keep it generic ("toy 1 ... toy N") so it never gives away a number the participant must work out.
 -->
 
 ## Input, rules and expected outcome
